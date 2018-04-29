@@ -9,8 +9,8 @@ import org.slf4j.LoggerFactory;
  * Created by taurai on 10/31/15.
  */
 public class MobileNumberUtils {
-// Changed Logger to be static in MobileNumberUtils.java
-    private final static Logger LOGGER = LoggerFactory.getLogger(MobileNumberUtils.class);
+
+    private static final Logger LOGGER = LoggerFactory.getLogger(MobileNumberUtils.class);
 
     private MobileNumberUtils() {
 

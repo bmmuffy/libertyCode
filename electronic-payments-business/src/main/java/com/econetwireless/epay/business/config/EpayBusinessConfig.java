@@ -11,6 +11,8 @@ import com.econetwireless.epay.business.services.impl.PartnerCodeValidatorImpl;
 import com.econetwireless.epay.business.services.impl.ReportingServiceImpl;
 import com.econetwireless.epay.dao.requestpartner.api.RequestPartnerDao;
 import com.econetwireless.epay.dao.subscriberrequest.api.SubscriberRequestDao;
+
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

@@ -37,13 +37,9 @@
             <artifactId>electronic-payments-dao</artifactId>
             <version>${project.parent.version}</version>
         </dependency>
-        <dependency>
-            <groupId>com.econetwireless</groupId>
-            <artifactId>intelligent-network-api</artifactId>
-            <version>${project.parent.version}</version>
-        </dependency>
     </dependencies>
     <build>
+    <pluginManagement>
         <plugins>
             <plugin>
             <groupId>org.jvnet.jax-ws-commons</groupId>
@@ -61,12 +57,13 @@
                     <extension>true</extension>
                     <wsdlDirectory>${basedir}/src/main/resources/wsdls</wsdlDirectory>
                     <sourceDestDir>${project.build.directory}/generated-sources/main/java</sourceDestDir>
-                    <packageName>com.econetwireless.in.soap.service</packageName>
+                    <packageName>com.econetwireless.in.webservice</packageName>
                 </configuration>
             </execution>
             </executions>
             </plugin>
         </plugins>
+        </pluginManagement>
     </build>
 
 
